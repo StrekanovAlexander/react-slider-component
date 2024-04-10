@@ -1,0 +1,28 @@
+.btn {
+    align-items: center;
+    background-color: lightgrey;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+}
+
+.btn:hover {
+    background-color: darkgray;
+}
+
+.prev {
+    margin-right: 2px;
+}
+
+.prev::before {
+    content: '\2BC7';
+}
+
+.next {
+    margin-left: 2px;
+}
+
+.next::before {
+    content: '\2BC8';
+}

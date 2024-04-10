@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 480px;
+    width: 640px;
+    position: relative;
+}
+
+.slider img {
+    height: 480px;
+    width: 640px;
+}
+
+.slider img.shown {
+    display: block;
+}
+
+.slider img.hidden {
+    display: none;
+}

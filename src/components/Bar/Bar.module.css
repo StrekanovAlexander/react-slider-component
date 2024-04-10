@@ -1,0 +1,23 @@
+.bar {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    height: 75px;
+}
+
+.images {
+    display: flex;
+    overflow: hidden;
+}
+
+.bar img {
+    cursor: pointer;
+    height: 75px;
+    margin: 0 1px;
+    width: 100px;
+}
+
+.active {
+    border: 2px solid orangered;
+}
